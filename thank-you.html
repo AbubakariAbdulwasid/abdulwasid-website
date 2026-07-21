@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>Thank you — Abubakari Abdul-Wasid</title>
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><rect width='64' height='64' rx='10' fill='%230B2545'/><circle cx='32' cy='32' r='24' fill='none' stroke='%231B7E88' stroke-width='2'/><text x='32' y='40' font-family='Georgia, serif' font-size='22' font-weight='600' fill='%23FBFAF7' text-anchor='middle' letter-spacing='0.5'>AAW</text></svg>"/>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Source+Serif+Pro:wght@400&family=Inter:wght@400;500&family=IBM+Plex+Mono:wght@500&display=swap" rel="stylesheet"/>
+<style>
+  :root{
+    --bg:#FBFAF7;--ink:#0B2545;--ink-2:#1a3560;--muted:#5b6577;
+    --teal:#1B7E88;--rule:#dcd6c9;--sand:#E9DCC9;
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0;padding:0;height:100%}
+  body{
+    background:var(--bg);color:var(--ink);
+    font-family:'Inter',system-ui,sans-serif;
+    display:grid;place-items:center;padding:40px 20px;
+    -webkit-font-smoothing:antialiased;
+  }
+  .card{
+    max-width:560px;text-align:center;
+    padding:56px 40px;background:#fff;border:1px solid var(--rule);
+  }
+  .eyebrow{
+    font:500 12px/1 'IBM Plex Mono',monospace;
+    letter-spacing:.14em;text-transform:uppercase;color:var(--teal);
+    display:inline-flex;align-items:center;gap:10px;margin-bottom:20px;
+  }
+  .eyebrow::before{content:"";width:22px;height:1px;background:var(--teal)}
+  .check{
+    width:64px;height:64px;border-radius:50%;background:var(--sand);
+    display:grid;place-items:center;margin:0 auto 24px;
+  }
+  .check svg{width:28px;height:28px;stroke:var(--ink);fill:none;stroke-width:2.5;stroke-linecap:round;stroke-linejoin:round}
+  h1{
+    font-family:'Playfair Display',Georgia,serif;font-weight:600;
+    font-size:36px;line-height:1.15;letter-spacing:-.01em;margin:0 0 14px;
+  }
+  h1 em{color:var(--teal);font-style:italic}
+  p{
+    font-family:'Source Serif Pro',Georgia,serif;font-size:17px;line-height:1.6;
+    color:var(--ink-2);margin:0 0 24px;
+  }
+  a.btn{
+    display:inline-flex;align-items:center;gap:8px;
+    padding:12px 22px;border:1px solid var(--ink);color:var(--ink);
+    text-decoration:none;font-weight:500;font-size:14px;
+    transition:background .2s,color .2s;
+  }
+  a.btn:hover{background:var(--ink);color:var(--bg)}
+  .foot{
+    margin-top:28px;font-size:12.5px;color:var(--muted);
+  }
+</style>
+</head>
+<body>
+  <main class="card">
+    <div class="check" aria-hidden="true">
+      <svg viewBox="0 0 24 24"><path d="M4 12l6 6L20 6"/></svg>
+    </div>
+    <span class="eyebrow">Message received</span>
+    <h1>Thank you — I'll be in <em>touch soon</em>.</h1>
+    <p>Your consultation request has been received. I typically reply within a few working days from Hamburg or Accra, depending on which timezone I'm in that week.</p>
+    <a class="btn" href="/">← Back to the site</a>
+    <div class="foot">Abubakari Abdul-Wasid · DAAD PhD Scholar · Universität Hamburg · BNITM</div>
+  </main>
+</body>
+</html>
